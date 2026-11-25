@@ -12,10 +12,12 @@ node_modules/
 .DS_Store
 # code-only repository: no docs, reports, slides, archives or report pack
 *.md
+!README.md
 *.pdf
 *.pptx
 *.zip
-docs/
+docs/*
+!docs/images/
 references/
 Mid-Report/
 *.tsbuildinfo
